@@ -1,0 +1,7 @@
+<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><title>資料を開いています</title>
+<p style="font-family:sans-serif">資料を開いています。開かない場合は<a id="a" href="https://drive.google.com/file/d/1A8DQz_fm0p4cUOuI9FDjyVhE9TiUKe7v/view">こちら</a></p>
+<script>
+var D="https://drive.google.com/file/d/1A8DQz_fm0p4cUOuI9FDjyVhE9TiUKe7v/view",L="https://script.google.com/macros/s/AKfycbywZuplR_g9bl1nkSEO22yRnLSonoK3xfAwfc9Mn6g0vgNUJf4di6G058kXsF0Fm9ru-w/exec";
+var id=new URLSearchParams(location.search).get("id")||"",go=function(){location.replace(D)};
+if(id){fetch(L+"?t=c&l=doc&id="+encodeURIComponent(id),{mode:"no-cors",credentials:"omit",keepalive:true}).then(go,go);setTimeout(go,1500)}else go();
+</script>
